@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^http://webpolimarket.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://webpolimarket.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.webpolimarket.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.webpolimarket.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://webpolimarket.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://webpolimarket.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.webpolimarket.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.webpolimarket.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]

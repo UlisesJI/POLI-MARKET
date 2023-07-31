@@ -1,0 +1,733 @@
+[24-Mar-2023 01:41:46 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/webpolim/public_html/ADMIN/conexion.php:8
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/conexion.php(8): mysqli_connect('localhost', 'root', '', 'polimarket_db')
+#1 /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php(3): include('/home2/webpolim...')
+#2 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/conexion.php on line 8
+[29-Mar-2023 01:38:54 America/Mexico_City] PHP Warning:  Undefined array key "user" in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 5
+[29-Mar-2023 01:38:54 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php:7
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php(7): mysqli_query(Object(mysqli), 'SELECT * FROM a...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 7
+[29-Mar-2023 01:38:55 America/Mexico_City] PHP Warning:  Undefined array key "user" in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 5
+[29-Mar-2023 01:38:55 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php:7
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php(7): mysqli_query(Object(mysqli), 'SELECT * FROM a...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 7
+[29-Mar-2023 01:40:11 America/Mexico_City] PHP Warning:  Undefined array key "user" in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 5
+[29-Mar-2023 01:40:11 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php:7
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php(7): mysqli_query(Object(mysqli), 'SELECT * FROM a...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 7
+[29-Mar-2023 01:40:12 America/Mexico_City] PHP Warning:  Undefined array key "user" in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 5
+[29-Mar-2023 01:40:12 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php:7
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php(7): mysqli_query(Object(mysqli), 'SELECT * FROM a...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 7
+[29-Mar-2023 01:40:19 America/Mexico_City] PHP Warning:  Undefined array key "user" in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 5
+[29-Mar-2023 01:40:19 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php:7
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php(7): mysqli_query(Object(mysqli), 'SELECT * FROM a...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 7
+[29-Mar-2023 01:40:37 America/Mexico_City] PHP Warning:  Undefined array key "user" in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 5
+[29-Mar-2023 01:40:37 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php:7
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php(7): mysqli_query(Object(mysqli), 'SELECT * FROM a...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 7
+[29-Mar-2023 02:04:45 America/Mexico_City] PHP Warning:  Undefined array key "boleta" in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 30
+[29-Mar-2023 02:04:45 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 38
+[29-Mar-2023 02:05:35 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 37
+[29-Mar-2023 02:05:35 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'gerente' for key 'PRIMARY' in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php:40
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php(40): mysqli_query(Object(mysqli), 'INSERT INTO adm...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 40
+[29-Mar-2023 02:05:50 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 37
+[29-Mar-2023 02:06:57 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 37
+[29-Mar-2023 02:06:57 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'gerente' for key 'PRIMARY' in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php:40
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php(40): mysqli_query(Object(mysqli), 'INSERT INTO adm...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 40
+[29-Mar-2023 02:07:29 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 37
+[29-Mar-2023 02:08:24 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 37
+[29-Mar-2023 02:09:55 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 37
+[29-Mar-2023 02:10:37 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 37
+[29-Mar-2023 08:11:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 37
+[18-Apr-2023 12:35:41 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 37
+[11-May-2023 09:21:16 America/Mexico_City] PHP Warning:  Undefined array key "admin" in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 5
+[11-May-2023 09:21:16 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 68
+[11-May-2023 09:21:16 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/PRINCIPAL_ADMIN.php on line 168
+[16-May-2023 03:23:29 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 38
+[16-May-2023 03:24:47 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 38
+[16-May-2023 03:24:47 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'law' for key 'PRIMARY' in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php:41
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php(41): mysqli_query(Object(mysqli), 'INSERT INTO adm...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 41
+[16-May-2023 03:24:53 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 38
+[16-May-2023 03:25:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 38
+[16-May-2023 03:26:18 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 38
+[16-May-2023 03:26:18 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lawss' for key 'PRIMARY' in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php:41
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php(41): mysqli_query(Object(mysqli), 'INSERT INTO adm...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 41
+[16-May-2023 03:26:42 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/REGISTRO_ADMIN2.php on line 38
+[16-May-2023 03:38:20 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:38:20 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:38:20 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 03:38:20 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 71
+[16-May-2023 03:38:22 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:38:22 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:38:22 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 03:38:22 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 71
+[16-May-2023 03:38:23 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:38:23 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:38:23 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 03:38:23 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 71
+[16-May-2023 03:41:12 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:41:12 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:41:12 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 03:41:12 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 71
+[16-May-2023 03:41:12 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 161
+[16-May-2023 03:41:12 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 161
+[16-May-2023 03:42:05 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:42:05 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:42:05 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 03:42:05 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 71
+[16-May-2023 03:42:05 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 161
+[16-May-2023 03:42:05 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 161
+[16-May-2023 03:42:07 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:42:07 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 57
+[16-May-2023 03:42:07 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 03:42:07 America/Mexico_City] PHP Warning:  Undefined variable $user in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 71
+[16-May-2023 03:42:07 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 161
+[16-May-2023 03:42:07 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 161
+[16-May-2023 03:54:21 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 03:54:21 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 03:54:21 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 03:54:21 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 03:58:11 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 03:58:11 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 03:58:11 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 03:58:11 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 04:01:45 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 04:01:45 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 04:01:45 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 04:01:45 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 04:01:51 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 04:01:51 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 04:01:51 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 04:01:51 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 04:04:15 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 04:04:15 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 04:04:15 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 04:04:15 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 04:05:39 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 04:05:39 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 04:05:39 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 04:05:39 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 11:13:11 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 11:13:11 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 11:13:11 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 11:13:11 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 11:13:47 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 11:13:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 11:13:47 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 11:13:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 11:14:12 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 11:14:12 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 11:14:12 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 11:14:12 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 11:22:38 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 11:22:38 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 11:22:38 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 11:22:38 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 11:22:39 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:22:39 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:22:39 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:22:39 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:26:08 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 11:26:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 11:26:08 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 11:26:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 11:26:10 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:26:10 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:26:10 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:26:10 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:31:39 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:31:39 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:31:39 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:31:39 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:33:15 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:33:15 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:33:15 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:33:15 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:33:31 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:33:31 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:33:31 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:33:31 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:35:16 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:35:16 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:35:16 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:35:16 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:36:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:36:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:36:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:36:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:37:32 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:37:32 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:37:32 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:37:32 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:41:35 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:41:35 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:41:35 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:41:35 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:43:06 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 11:43:06 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 11:43:06 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 11:43:06 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 11:43:21 America/Mexico_City] PHP Parse error:  syntax error, unexpected token "endwhile", expecting end of file in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 214
+[16-May-2023 11:43:54 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:43:54 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:43:54 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:43:54 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:49:49 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:49:49 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:49:49 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:49:49 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:49:49 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 219
+[16-May-2023 11:53:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:53:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:53:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:53:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:53:40 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 219
+[16-May-2023 11:55:20 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:55:20 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:55:20 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:55:20 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:55:20 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 219
+[16-May-2023 11:56:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:56:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:56:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:56:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:56:58 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 219
+[16-May-2023 11:57:11 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:57:11 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 11:57:11 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:57:11 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 11:57:11 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 219
+[16-May-2023 12:03:33 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:03:33 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:03:33 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:03:33 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:03:33 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 219
+[16-May-2023 12:06:08 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:06:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:06:08 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:06:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:06:08 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 219
+[16-May-2023 12:07:43 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:07:43 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:07:43 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:07:43 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:07:43 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 219
+[16-May-2023 12:08:59 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:08:59 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:08:59 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:08:59 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:08:59 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 230
+[16-May-2023 12:10:44 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:10:44 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:10:44 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:10:44 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:10:44 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 230
+[16-May-2023 12:11:30 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:11:30 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:11:30 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:11:30 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:11:30 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 230
+[16-May-2023 12:13:34 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:13:34 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:13:34 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:13:34 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:13:34 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 230
+[16-May-2023 12:15:05 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:15:05 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:15:05 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:15:05 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:15:05 America/Mexico_City] PHP Warning:  Undefined array key "anio_na_user" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 210
+[16-May-2023 12:16:32 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:16:32 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:16:32 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:16:32 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:17:13 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:17:13 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:17:13 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:17:13 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:17:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:17:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:17:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:17:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:18:44 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:18:44 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:18:44 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:18:44 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:19:25 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:19:25 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:19:25 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:19:25 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:20:44 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:20:44 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:20:44 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:20:44 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:20:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:20:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:20:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:20:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:21:45 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:21:45 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:21:45 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:21:45 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:21:49 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:21:49 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:21:49 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:21:49 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:21:52 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:21:52 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:21:52 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:21:52 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:23:10 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:23:10 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:23:10 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:23:10 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:23:17 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:23:17 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:23:17 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:23:17 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:24:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:24:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:24:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:24:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:28:19 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:28:19 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:28:19 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:28:19 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:28:22 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[16-May-2023 12:28:28 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:28:28 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:28:28 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:28:28 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:29:10 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:29:10 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:29:10 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:29:10 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:30:42 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:30:42 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:30:42 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:30:42 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:36:08 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:36:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 12:36:08 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:36:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 12:46:52 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:46:52 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:46:52 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:46:52 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:46:52 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:46:52 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 12:46:52 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:46:52 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 12:46:57 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 12:46:57 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 12:46:57 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 12:46:57 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 12:46:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 12:46:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 12:46:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 12:46:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 12:47:00 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 12:47:00 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 12:47:00 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 12:47:00 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 12:49:18 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 12:49:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 12:49:18 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 12:49:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 12:51:17 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 12:51:17 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 12:51:17 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 12:51:17 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 12:51:18 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[16-May-2023 12:51:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[16-May-2023 12:51:18 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[16-May-2023 12:51:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[16-May-2023 12:51:18 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[16-May-2023 12:51:18 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[16-May-2023 12:51:18 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[16-May-2023 13:01:35 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 13:01:35 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 13:01:35 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 13:01:35 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 13:05:49 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 13:05:49 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[16-May-2023 13:05:49 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 13:05:49 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[16-May-2023 13:05:52 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 13:05:52 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[16-May-2023 13:05:52 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 13:05:52 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[16-May-2023 13:11:50 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 13:11:50 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[16-May-2023 13:11:50 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 13:11:50 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[16-May-2023 13:11:53 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[16-May-2023 13:11:53 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[16-May-2023 13:11:53 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[16-May-2023 13:11:53 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[16-May-2023 13:11:53 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[16-May-2023 13:11:53 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[16-May-2023 13:11:53 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[23-May-2023 23:55:55 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[23-May-2023 23:55:55 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[23-May-2023 23:55:55 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[23-May-2023 23:55:55 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[23-May-2023 23:55:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[23-May-2023 23:55:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[23-May-2023 23:55:58 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[23-May-2023 23:55:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[23-May-2023 23:56:12 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[23-May-2023 23:56:12 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[23-May-2023 23:56:12 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[23-May-2023 23:56:12 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[23-May-2023 23:56:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[23-May-2023 23:56:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[23-May-2023 23:56:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[23-May-2023 23:56:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[23-May-2023 23:56:46 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[23-May-2023 23:56:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[23-May-2023 23:56:46 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[23-May-2023 23:56:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[24-May-2023 07:34:14 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[24-May-2023 07:34:14 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[24-May-2023 07:34:14 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[24-May-2023 07:34:14 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[24-May-2023 07:34:24 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:34:24 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:34:24 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:34:24 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:35:21 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[24-May-2023 07:35:21 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'Delete from cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[24-May-2023 07:35:41 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:35:41 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:35:41 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:35:41 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:35:45 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[24-May-2023 07:35:45 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[24-May-2023 07:35:45 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[24-May-2023 07:35:45 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[24-May-2023 07:36:12 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[24-May-2023 07:36:12 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[24-May-2023 07:36:12 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[24-May-2023 07:36:12 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[24-May-2023 07:36:12 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[24-May-2023 07:36:12 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[24-May-2023 07:36:12 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 191
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 196
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 198
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 200
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 202
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 204
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 206
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 208
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 210
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 212
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 214
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 216
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 218
+[24-May-2023 07:36:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 218
+[24-May-2023 07:36:30 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[24-May-2023 07:36:30 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[24-May-2023 07:36:30 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[24-May-2023 07:36:30 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[24-May-2023 07:36:30 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[24-May-2023 07:36:30 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[24-May-2023 07:36:30 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[24-May-2023 07:36:44 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[24-May-2023 07:36:44 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[24-May-2023 07:36:44 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[24-May-2023 07:36:44 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[24-May-2023 07:36:47 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[24-May-2023 07:36:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[24-May-2023 07:36:47 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[24-May-2023 07:36:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[24-May-2023 07:36:47 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[24-May-2023 07:36:47 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[24-May-2023 07:36:47 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[24-May-2023 07:36:56 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[24-May-2023 07:36:56 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[24-May-2023 07:36:56 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[24-May-2023 07:36:56 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[24-May-2023 07:36:59 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[24-May-2023 07:36:59 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[24-May-2023 07:36:59 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[24-May-2023 07:36:59 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[24-May-2023 07:36:59 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[24-May-2023 07:36:59 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[24-May-2023 07:36:59 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[24-May-2023 07:38:12 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[24-May-2023 07:38:12 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[24-May-2023 07:38:12 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[24-May-2023 07:38:12 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[24-May-2023 07:38:13 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[24-May-2023 07:38:13 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[24-May-2023 07:38:13 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[24-May-2023 07:38:13 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[24-May-2023 07:38:13 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[24-May-2023 07:38:13 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[24-May-2023 07:38:13 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[24-May-2023 07:39:39 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[24-May-2023 07:39:39 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[24-May-2023 07:39:39 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[24-May-2023 07:39:39 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[24-May-2023 07:39:41 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:39:41 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:39:41 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:39:41 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:39:43 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[24-May-2023 07:39:43 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'Delete from cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[24-May-2023 07:40:36 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[24-May-2023 07:40:36 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'Delete FROM cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[24-May-2023 07:40:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:40:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:40:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:40:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:40:42 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[24-May-2023 07:40:42 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'Delete FROM cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[24-May-2023 07:42:40 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[24-May-2023 07:42:40 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'DELETE FROM cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[24-May-2023 07:42:49 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:42:49 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:42:49 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:42:49 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:42:51 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[24-May-2023 07:42:51 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'DELETE FROM cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[24-May-2023 07:42:59 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:42:59 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:42:59 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:42:59 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:43:10 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[24-May-2023 07:43:10 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'DELETE FROM cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[24-May-2023 07:44:57 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[24-May-2023 07:44:57 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'DELETE FROM cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[24-May-2023 07:44:59 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[24-May-2023 07:44:59 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'DELETE FROM cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[24-May-2023 07:45:00 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[24-May-2023 07:45:00 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'DELETE FROM cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[24-May-2023 07:45:01 America/Mexico_City] PHP Warning:  Undefined array key "id_carrito" in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 26
+[24-May-2023 07:45:01 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'DELETE FROM cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[24-May-2023 07:46:05 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:46:05 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:46:05 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:46:05 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:47:43 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[24-May-2023 07:47:43 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[24-May-2023 07:47:43 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[24-May-2023 07:47:43 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[24-May-2023 07:47:46 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[24-May-2023 07:47:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[24-May-2023 07:47:46 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[24-May-2023 07:47:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[24-May-2023 07:47:48 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:47:48 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[24-May-2023 07:47:48 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:47:48 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[24-May-2023 07:48:01 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'webpolim_PM'@'localhost' for table 'clientes' in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php:28
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php(28): mysqli_query(Object(mysqli), 'DELETE FROM cli...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_USER.php on line 28
+[28-May-2023 19:26:08 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[28-May-2023 19:26:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[28-May-2023 19:26:08 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[28-May-2023 19:26:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[28-May-2023 19:27:44 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[28-May-2023 19:27:44 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[28-May-2023 19:27:44 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[28-May-2023 19:27:44 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[28-May-2023 19:28:13 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[28-May-2023 19:28:13 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[28-May-2023 19:28:13 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[28-May-2023 19:28:13 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[28-May-2023 19:28:24 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[28-May-2023 19:28:24 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[28-May-2023 19:28:24 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[28-May-2023 19:28:24 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[28-May-2023 19:28:27 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[28-May-2023 19:28:27 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[28-May-2023 19:28:27 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[28-May-2023 19:28:27 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[28-May-2023 19:28:27 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[28-May-2023 19:28:27 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[28-May-2023 19:28:27 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[28-May-2023 19:28:36 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[28-May-2023 19:28:36 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[28-May-2023 19:28:36 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[28-May-2023 19:28:36 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[28-May-2023 19:28:41 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[28-May-2023 19:28:41 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[28-May-2023 19:28:41 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[28-May-2023 19:28:41 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[28-May-2023 19:28:41 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[28-May-2023 19:28:41 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[28-May-2023 19:28:41 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[28-May-2023 19:28:49 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[28-May-2023 19:28:49 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[28-May-2023 19:28:49 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[28-May-2023 19:28:49 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[28-May-2023 19:28:55 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[28-May-2023 19:28:55 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[28-May-2023 19:28:55 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[28-May-2023 19:28:55 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[28-May-2023 19:28:55 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[28-May-2023 19:28:55 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[28-May-2023 19:28:55 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[28-May-2023 19:34:13 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[28-May-2023 19:34:13 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[28-May-2023 19:34:13 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[28-May-2023 19:34:13 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[28-May-2023 19:34:15 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[28-May-2023 19:34:15 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[28-May-2023 19:34:15 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[28-May-2023 19:34:15 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[28-May-2023 19:34:15 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[28-May-2023 19:34:15 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[28-May-2023 19:34:15 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[28-May-2023 19:34:16 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in /home2/webpolim/public_html/ADMIN/ELIMINAR_ADMIN.php:21
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_ADMIN.php(21): mysqli_query(Object(mysqli), 'SELECT * FROM a...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_ADMIN.php on line 21
+[28-May-2023 19:36:51 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[28-May-2023 19:36:51 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 66
+[28-May-2023 19:36:51 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[28-May-2023 19:36:51 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 170
+[28-May-2023 19:36:51 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 191
+[28-May-2023 19:36:51 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/webpolim/public_html/ADMIN/VISUALIZAR_ADMIN.php on line 216
+[28-May-2023 19:36:59 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in /home2/webpolim/public_html/ADMIN/ELIMINAR_ADMIN.php:21
+Stack trace:
+#0 /home2/webpolim/public_html/ADMIN/ELIMINAR_ADMIN.php(21): mysqli_query(Object(mysqli), 'SELECT * FROM a...')
+#1 {main}
+  thrown in /home2/webpolim/public_html/ADMIN/ELIMINAR_ADMIN.php on line 21
+[28-May-2023 19:37:36 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[28-May-2023 19:37:36 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[28-May-2023 19:37:36 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[28-May-2023 19:37:36 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[28-May-2023 20:24:29 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[28-May-2023 20:24:29 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[28-May-2023 20:24:29 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[28-May-2023 20:24:29 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[28-May-2023 20:24:33 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[28-May-2023 20:24:33 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[28-May-2023 20:24:33 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[28-May-2023 20:24:33 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[29-May-2023 21:33:50 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 21:33:50 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 21:33:50 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[29-May-2023 21:33:50 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[29-May-2023 22:02:29 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 22:02:29 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 22:02:29 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[29-May-2023 22:02:29 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[29-May-2023 22:03:04 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 22:03:04 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 22:03:04 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[29-May-2023 22:03:04 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[29-May-2023 22:03:17 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 22:03:17 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 22:03:17 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[29-May-2023 22:03:17 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[29-May-2023 22:03:20 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[29-May-2023 22:03:20 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[29-May-2023 22:03:20 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[29-May-2023 22:03:20 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[29-May-2023 22:03:29 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 22:03:29 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 22:03:29 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[29-May-2023 22:03:29 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[29-May-2023 22:03:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[29-May-2023 22:03:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 66
+[29-May-2023 22:03:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[29-May-2023 22:03:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/ADMINS.php on line 170
+[29-May-2023 22:44:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 22:44:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[29-May-2023 22:44:40 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[29-May-2023 22:44:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[30-May-2023 08:30:04 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[30-May-2023 08:30:04 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 66
+[30-May-2023 08:30:04 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[30-May-2023 08:30:04 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/USUARIOS.php on line 170
+[30-May-2023 08:30:08 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[30-May-2023 08:30:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[30-May-2023 08:30:08 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[30-May-2023 08:30:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[30-May-2023 08:30:14 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[30-May-2023 08:30:14 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 66
+[30-May-2023 08:30:14 America/Mexico_City] PHP Warning:  Undefined variable $row3 in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170
+[30-May-2023 08:30:14 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/webpolim/public_html/ADMIN/VISUALIZAR_USER.php on line 170

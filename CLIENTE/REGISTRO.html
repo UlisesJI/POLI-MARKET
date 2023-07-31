@@ -1,0 +1,297 @@
+<html>
+    <head>
+        <title>POLI_MARKET</title>                                     <!-- titulo de pestaña -->
+        <meta charset="UTF-8">                                                          
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="REGISTRO.css">
+        <link rel="icon" href="img/icono.png">     
+        <!-- Logo pestaña -->
+        <script>
+            function validar() {
+      // Variable que usaremos para determinar si el input es valido
+      let isValid = false;
+
+      // El input que queremos validar
+      const input = document.forms['form']['nombre']['apellidos']['mail'];
+
+      //El div con el mensaje de advertencia:
+      const message = document.getElementById('message');
+
+      input.willValidate = false;
+
+      // El pattern que vamos a comprobar
+      const pattern = new RegExp('^[A-Z]+$', 'i');
+      
+      if(!pattern.test(input.value)){ 
+          // Si queremos agregar letras acentuadas y/o letra ñ debemos usar
+          // codigos de Unicode (ejemplo: Ñ: \u00D1  ñ: \u00F1)
+            isValid = false;
+          } else {
+            // Si pasamos todas la validaciones anteriores, entonces el input es valido
+            isValid = true;
+          }
+
+
+      // devolvemos el valor de isValid
+      return isValid;
+    }
+
+    // Por último, nuestra función que verifica si el campo es válido antes de realizar cualquier otra acción.
+    function verificar() {
+      const valido = validar();
+      if (!valido) {
+        alert('El campo no es válido.');
+      } else {
+        alert('El campo es válido');
+      }
+    }
+        </script>
+    </head>
+    <body>                                                                          <!-- cuerpo de pagina -->
+        <div class="principal">
+            <div id="container">
+                <h1> Registrate </h1>
+                <img src="img/Logo_PoliMarket.png" alt="">
+                
+                <form action="REGISTRO.php" method="post" id="contact_form"  name="form" >
+                  <div class="nombre">
+                    <label for="name"></label>
+                    <input type="text" placeholder="NOMBRE" name="nombre" pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1\u00E0-\u00FC]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1\u00E0-\u00FC]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1\u00E0-\u00FC]+$" id="name_input" required>
+                  </div>
+                  <div class="apellidos">
+                    <label for="apellidos"></label>
+                    <input type="text" placeholder="APELLIDOS" name="apellidos" pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1\u00E0-\u00FC]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1\u00E0-\u00FC]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1\u00E0-\u00FC]+$" required>
+                  </div>
+                  <div class="correo">
+                    <label for="email"></label>
+                    <input type="email" pattern=".+@alumno.ipn\.mx" placeholder="CORREO INSTITUCIONAL" name="email" id="email_input" required>
+                  </div> 
+                  <div class="telefono">
+                    <label for="tel"></label>
+                    <input type="tel" pattern="[0-9]{10}" style="border: none;
+	border-bottom: solid 2px #000000;
+	color: #000000;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: none;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;" placeholder="TELÉFONO/CELULAR" name="telefono" id="telephone_input" required>
+                  </div>
+                  
+                    <select name="MES" style="color: #000000" required>
+                <option value="">MES EN QUE NACISTE?</option>
+                <option value="ENERO">ENERO</option>
+                <option value="FEBRERO">FEBRERO</option>
+                <option value="MARZO">MARZO</option>
+                <option value="ABRIL">ABRIL</option>
+                <option value="MAYO">MAYO</option>
+                <option value="JUNIO">JUNIO</option>
+                <option value="JULIO">JULIO</option>
+                <option value="AGOSTO">AGOSTO</option>
+                <option value="SEPTIEMBRE">SEPTIEMBRE</option>
+                <option value="OCTUBRE">OCTUBRE</option>
+                <option value="NOVIEMBRE">NOVIEMBRE</option>
+                <option value="DICIEMBRE">DICIEMBRE</option>
+            </select>
+                    <select name="DIA" style="color: #000000" required>
+                <option value="">DIA EN QUE NACISTE?</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+                    <select name="ANO" style="color: #000000" required>
+                <option value="">AÑO EN QUE NACISTE?</option>
+                <option value="2018">2018</option> 
+                <option value="2017">2017</option> 
+                <option value="2016">2016</option> 
+                <option value="2015">2015</option> 
+                <option value="2014">2014</option> 
+                <option value="2013">2013</option> 
+                <option value="2012">2012</option> 
+                <option value="2011">2011</option> 
+                <option value="2010">2010</option> 
+                <option value="2009">2009</option>
+                <option value="2008">2008</option>
+                <option value="2007">2007</option>
+                <option value="2006">2006</option>
+                <option value="2005">2005</option>
+                <option value="2004">2004</option>
+                <option value="2003">2003</option>
+                <option value="2002">2002</option>
+                <option value="2001">2001</option>
+                <option value="2000">2000</option>
+                <option value="1999">1999</option>
+                <option value="1998">1998</option>
+                <option value="1997">1997</option>
+                <option value="1996">1996</option>
+                <option value="1995">1995</option>
+                <option value="1994">1994</option>
+                <option value="1993">1993</option>
+                <option value="1992">1992</option>
+                <option value="1991">1991</option>
+                <option value="1990">1990</option>
+                <option value="1989">1989</option>
+                <option value="1988">1988</option>
+                <option value="1987">1987</option>
+                <option value="1986">1986</option>
+                <option value="1985">1985</option>
+                <option value="1984">1984</option>
+                <option value="1983">1983</option>
+                <option value="1982">1982</option>
+                <option value="1981">1981</option>
+                <option value="1980">1980</option>
+                <option value="1979">1979</option>
+                <option value="1978">1978</option>
+                <option value="1977">1977</option>
+                <option value="1976">1976</option>
+                <option value="1975">1975</option>
+                <option value="1974">1974</option>
+                <option value="1973">1973</option>
+                <option value="1972">1972</option>
+                <option value="1971">1971</option>
+                <option value="1970">1970</option>
+                <option value="1969">1969</option>
+                <option value="1968">1968</option>
+                <option value="1967">1967</option>
+                <option value="1966">1966</option>
+                <option value="1965">1965</option>
+                <option value="1964">1964</option>
+                <option value="1963">1963</option>
+                <option value="1962">1962</option>
+                <option value="1961">1961</option>
+                <option value="1960">1960</option>
+                <option value="1959">1959</option>
+                <option value="1958">1958</option>
+                <option value="1957">1957</option>
+                <option value="1956">1956</option>
+                <option value="1955">1955</option>
+                <option value="1954">1954</option>
+                <option value="1953">1953</option>
+                <option value="1952">1952</option>
+                <option value="1951">1951</option>
+                <option value="1950">1950</option>
+                <option value="1949">1949</option>
+                <option value="1948">1948</option>
+                <option value="1947">1947</option>
+                <option value="1946">1946</option>
+                <option value="1945">1945</option>
+                <option value="1944">1944</option>
+                <option value="1943">1943</option>
+                <option value="1942">1942</option>
+                <option value="1941">1941</option>
+                <option value="1940">1940</option>
+                <option value="1939">1939</option>
+                <option value="1938">1938</option>
+                <option value="1937">1937</option>
+                <option value="1936">1936</option>
+                <option value="1935">1935</option>
+                <option value="1934">1934</option>
+                <option value="1933">1933</option>
+                <option value="1932">1932</option>
+                <option value="1931">1931</option>
+                <option value="1930">1930</option>    
+            </select>
+                  <div class="Usuario">
+                    <label for="name"></label>
+                    <input type="text" placeholder="USUARIO" name="usuario" id="usuario" style="border: none;
+	border-bottom: solid 2px #000000;
+	color: #000000;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: none;
+	width: 45%;
+	float:left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;" required>
+                  </div>
+                  <input type="text" placeholder="BOLETA" pattern="([2]{1})(0)([1-9]{2})(0)([9]{1})([0-9]{4})" name="boleta" style="border: none;
+	border-bottom: solid 2px #000000;
+	color: #000000;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: none;
+	width: 45%;
+	float:right;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;" required>
+                  <div class="Contraseña">
+                    <label for="name"></label>
+                    <input style="border: none; border-bottom: solid 2px #000000; color: #000000; font-size: 1.000em;
+                        font-weight: 400; letter-spacing: 1px; margin: 0em 0 1.875em 0; padding: 0 0 0.875em 0;
+                        text-transform: none; width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+	                    -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; -webkit-transition: all 0.3s;
+	                    -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;
+	                    transition: all 0.3s;" type="password" placeholder="CONTRASEÑA" name="contrasenia" id="contrasenia" required>
+                
+                  
+                    <input type="submit" value="Registrarse" name="Registrarse" id="form_button" />
+                  </div>
+                </form><!-- // End form -->
+              </div><!-- // End #container -->
+        </div>
+           
+    </body>
+</html>
